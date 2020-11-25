@@ -4,5 +4,8 @@
   "main": "index.js",
   "repository": "https://github.com/gucollaco/clean-architecture-studies.git",
   "author": "Gustavo Collaço <gustavo.m.collaco@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "git-commit-msg-linter": "^3.0.0"
+  }
 }
