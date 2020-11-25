@@ -5,7 +5,12 @@
   "repository": "https://github.com/gucollaco/clean-architecture-studies.git",
   "author": "Gustavo Collaço <gustavo.m.collaco@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "2": "eslint \"**/*.{js,ts,json}\"",
+    "lint": "eslint test.ts"
+  },
   "devDependencies": {
+    "@types/node": "^14.14.9",
     "@typescript-eslint/eslint-plugin": "^4.8.2",
     "@typescript-eslint/parser": "^4.8.2",
     "eslint": "^7.12.1",
@@ -13,6 +18,7 @@
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
-    "git-commit-msg-linter": "^3.0.0"
+    "git-commit-msg-linter": "^3.0.0",
+    "typescript": "^4.1.2"
   }
 }
