@@ -1,0 +1,4 @@
+API Requirements
+
+1. Register use on mailing list
+2. Send the bonus poster through an e-mail
