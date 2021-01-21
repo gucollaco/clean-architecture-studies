@@ -4,7 +4,7 @@
  */
 
 module.exports = {
-  root: ['<rootDir>/src'],
+  root: ['<rootDir>/test'],
   clearMocks: true,
   coverageDirectory: 'coverage',
   coverageProvider: 'v8',
