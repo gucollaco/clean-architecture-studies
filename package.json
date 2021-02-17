@@ -6,6 +6,7 @@
   "author": "Gustavo Collaço <gustavo.m.collaco@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "build": "rimraf dist && tsc -p tsconfig-build.json",
     "lint": "eslint --fix",
     "test": "jest --passWithNoTests --silent --noStackTrace --runInBand",
     "test-verbose": "jest --passWithNoTests --runInBand",
@@ -38,5 +39,8 @@
   "dependencies": {
     "express": "^4.17.1",
     "module-alias": "^2.2.2"
+  },
+  "_moduleAliases": {
+    "@": "dist"
   }
 }
