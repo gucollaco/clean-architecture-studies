@@ -1,6 +1,6 @@
 import { MongoClient, Collection } from 'mongodb'
 
-export const mongoHelper = {
+export const MongoHelper = {
   client: null as MongoClient,
   async connect (uri: string): Promise<void> {
     this.client = await MongoClient.connect(uri, {
